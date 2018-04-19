@@ -4,7 +4,7 @@ include(cmake/base.cmake)
 include(cmake/boost.cmake)
 include(cmake/eigen.cmake)
 
-list(APPEND CMAKE_MODULE_PATH "${CMAKE_SOURCE_DIR}")
+list(APPEND CMAKE_MODULE_PATH ${CMAKE_SOURCE_DIR}/ThirdParty/eigen-gurobi)
 
 set(PROJECT_NAME eigen-gurobi)
 set(PROJECT_DESCRIPTION "Gurobi QP solver through Eigen3 library.")
